@@ -1,0 +1,11 @@
+{
+    "python-envs.pythonProjects": [
+        {
+            "path": ".",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
+        }
+    ],
+    "code-runner.runInTerminal": true,
+    "python.defaultInterpreterPath": "/Users/mayanksharma/python-for-ai/.venv/bin/python"
+}
