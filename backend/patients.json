@@ -1,0 +1,57 @@
+[
+  {
+    "id": "p003",
+    "name": "Alex Jones",
+    "city": "Chicago",
+    "age": 33,
+    "gender": "Non-binary",
+    "height_m": 1.8,
+    "weight_kg": 89.1,
+    "bmi": 27.5,
+    "verdict": "Overweight"
+  },
+  {
+    "id": "p004",
+    "name": "sagarrrsharmaaaa",
+    "city": "string",
+    "age": 0,
+    "gender": "string",
+    "height_m": 0.0,
+    "weight_kg": 0.0,
+    "bmi": 0.0,
+    "verdict": "string"
+  },
+  {
+    "id": "p005",
+    "name": "Michael Green",
+    "city": "Phoenix",
+    "age": 53,
+    "gender": "Male",
+    "height_m": 1.79,
+    "weight_kg": 76.0,
+    "bmi": 23.7,
+    "verdict": "Normal weight"
+  },
+  {
+    "id": "p006",
+    "name": "Sarah Connor",
+    "city": "Seattle",
+    "age": 35,
+    "gender": "Female",
+    "height_m": 1.7,
+    "weight_kg": 65.0,
+    "bmi": 22.5,
+    "verdict": "Normal weight"
+  },
+  {
+    "id": "p007",
+    "name": "Sarah Connor",
+    "city": "Seattle",
+    "age": 35,
+    "gender": "Female",
+    "height_m": 1.7,
+    "weight_kg": 65.0,
+    "bmi": 22.5,
+    "verdict": "Normal weight"
+  }
+]
