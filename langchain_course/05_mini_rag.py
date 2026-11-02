@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
+from langchain_google_genai.chat_models import GoogleAPIError
 import numpy as np
 from langchain_core.messages import SystemMessage, HumanMessage
 
@@ -57,5 +58,8 @@ while True:
             ),
             HumanMessage(content=question),
         ]
-        result = chat_model.invoke(messages)
-        print("bot:", result.text)
+        try:
+            result = chat_model.invoke(messages)
+            print("bot:", result.text)
+        except GoogleAPIError:
+            print("model is busy right now, try again")
